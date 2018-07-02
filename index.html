@@ -15,8 +15,10 @@
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="assets/css/demo.css" rel="stylesheet" />
   <link href="assets/css/blog.css" rel="stylesheet">
+  <link href="stylesheet.css" rel="stylesheet">
   <style type="text/css">
-    .nav-scroller {
+
+.nav-scroller {
   position: relative;
   z-index: 2;
   height: 2.75rem;
@@ -62,16 +64,27 @@ h3{
   background: rgb(11,9,34);
 background: linear-gradient(0deg, rgba(11,9,34,1) 0%, rgba(87,87,96,1) 45%, rgba(112,112,112,1) 75%);
 }
+
+html, fontt{
+            
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+             
+     
 </style>
 </head>
 
 <body class="landing-page ">
   <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
-    <div class="container">
+    <div class="container" style="padding-top: 10px;">
       
-        <a class="navbar-brand" href="index.html">Stardust Adventures</a>
-        
-     
+        <a class=" navbar-brand" href="index.html" style="padding-top: 0; padding-bottom: 0; margin: 0;">
+        <span class="fontt " style="font-family: 'Playlist'; font-weight: normal; font-style: normal; font-size: 2em;">
+           Stardust</span><br> <span style="padding-left: 15px;"><b style="font-size: 15px;">Adventures</b></span>
+      </div>
+     </a>
       <div>
         <ul class="navbar-nav ml-auto">
 
@@ -227,6 +240,7 @@ background: linear-gradient(0deg, rgba(11,9,34,1) 0%, rgba(87,87,96,1) 45%, rgba
     </div>
   <footer class="footer footer-default">
     <div class="container">
+      
       <div style="padding-top: 1.4em; ">
         <a href="https://medium.com/@stardustadventures.in"><img src="assets/medium.png" alt="Medium Blog" height="36" width="36"></a>
         <a href="https://www.facebook.com/stardustadventures/"><img src="assets/fb.png" alt="Facebook" height="37" width="37"></a>
